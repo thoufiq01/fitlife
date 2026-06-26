@@ -19,9 +19,9 @@ function Calculator() {
     }
 
     setResult({
-      lose: Math.round(w * 12),
-      maintain: Math.round(w * 15),
-      gain: Math.round(w * 18)
+      lose: Math.round(w * 22),
+      maintain: Math.round(w * 26),
+      gain: Math.round(w * 30)
     });
   }
 
@@ -78,7 +78,7 @@ function Calculator() {
                   <p className="result-note">Calorie deficit to shed fat</p>
                 </div>
                 <div className="right-side">
-                  <p className="result-formula">weight × 12</p>
+                  <p className="result-formula"></p>
                   <p className="result-value">{result.lose} cal/day</p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ function Calculator() {
                   <p className="result-note">Stay at your current weight</p>
                 </div>
                 <div className="right-side">
-                  <p className="result-formula">weight × 15</p>
+                  <p className="result-formula"></p>
                   <p className="result-value">{result.maintain} cal/day</p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ function Calculator() {
                   <p className="result-note">Calorie surplus to build muscle</p>
                 </div>
                 <div className="right-side">
-                  <p className="result-formula">weight × 18</p>
+                  <p className="result-formula"></p>
                   <p className="result-value">{result.gain} cal/day</p>
                 </div>
               </div>
